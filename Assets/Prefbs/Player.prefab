@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 100
-  thrustForce: 1.2
+  thrustForce: 1000
   crashSpeedThreshold: 1
 --- !u!50 &5788131758911002221
 Rigidbody2D:

@@ -37,7 +37,7 @@ public class SpaceLanderController : MonoBehaviour
         // Handle thrust
         if (Input.GetKey(KeyCode.W))
         {
-            rb.AddForce(transform.up * thrustForce);
+            rb.AddForce(transform.up * thrustForce * Time.deltaTime);
         }
     }
 
